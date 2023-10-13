@@ -1,6 +1,7 @@
 "use strict"//treat all JS code as newer version
 
 //alert("hello") we are using node.js , not browser
+
 console.log(3+3); console.log("hello")//semicolon is must here while writing code in one line
 //code reada  ibility should be high
 
@@ -16,5 +17,7 @@ let isLoggedIn=false
 //null=>standalone value
 //undefined=>varaiable is not initialised in this case
 //symbol=>unique
-
-
+console.log(typeof name) 
+console.log(typeof null)
+console.log(typeof isLoggedIn)
+console.log(typeof undefined)
