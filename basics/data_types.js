@@ -17,7 +17,7 @@ let isLoggedIn=false
 //null=>standalone value
 //undefined=>varaiable is not initialised in this case
 //symbol=>unique
-console.log(typeof name) 
-console.log(typeof null)
-console.log(typeof isLoggedIn)
-console.log(typeof undefined)
+console.log(typeof name) //string
+console.log(typeof null)//object
+console.log(typeof isLoggedIn)//boolean
+console.log(typeof undefined)//undefined
