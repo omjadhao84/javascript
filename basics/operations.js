@@ -49,3 +49,4 @@ console.log(+false) out;0
 console.log(2==="2");
 //it strictly check the values without converting data types 
 
+//completed
