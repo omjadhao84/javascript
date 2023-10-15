@@ -24,6 +24,29 @@ const heros = ["shaktiman","Nagraj","doga"]//data types--object
 
  const myFunction=function(){
     console.log("Hello World");
- }
+ }//data type--object function
 
  console.log(typeof myFunction)
+
+ //********************************************* */
+ //Stack(Primitive),Heap(Non-Primitive)
+
+ let myNameIs="Om Jadhao";
+ let myFriendName=myNameIs;
+ myFriendName="gopal"
+ 
+ console.log(myFriendName)
+ console.log(myNameIs)
+
+ let userOne={
+   email:"omjadhao@gmail.com",
+   upi:"ybl"
+ }
+ let userTwo={
+   email:"jadhao",
+   upi:"@ybl"
+ }
+ console.log(userTwo.email)
+ userTwo.email="om84@gmail.com"
+ console.log(userTwo.email)
+
