@@ -62,5 +62,16 @@ const course={
     courseInstructor:"hitesh"
 }
 //console.log(course.courseInstructor)
-const {courseInstructor:instructor}=course
+const {courseInstructor:instructor}=course//in this we destructure the values from the object
 console.log(instructor);
+
+// {
+//     name:"OM",
+//     coursename:"Javascript",
+//     price:"free"
+// }
+[
+    {},
+    {},
+    {}
+]
