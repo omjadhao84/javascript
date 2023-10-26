@@ -34,7 +34,7 @@ if(true){
 //console.log(username);
 
 //+++++++++++++++ Interesting +++++++++++++++++
-console.log(addone(5));
+console.log(addone(5));//here we can use it before declaration
 function addone(num){
     return num+1;
 }
