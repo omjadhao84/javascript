@@ -3,7 +3,7 @@
 //alert("hello") we are using node.js , not browser
 
 console.log(3+3); console.log("hello")//semicolon is must here while writing code in one line
-//code reada  ibility should be high
+//code readaibility should be high
 
 
 let name="omjadhao"
